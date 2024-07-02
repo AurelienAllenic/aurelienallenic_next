@@ -1,0 +1,18 @@
+@keyframes arrow_languages {
+    to {
+            transform: rotate(360deg);
+            transition: all ease 1s;
+    }
+  }
+
+button{
+    svg{
+        transition: all ease-out 0.9s;
+    }
+    &:hover{
+        svg{
+            animation: arrow_languages 1s ease infinite;
+            transition: all ease 0.9s;
+        }
+    }
+}
