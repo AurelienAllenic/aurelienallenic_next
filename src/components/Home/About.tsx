@@ -3,8 +3,8 @@ import React from 'react'
 import IMG from '@/public/about.jpg'
 import '@/styles/about.scss'
 import '@/styles/buttons_about.scss'
-import Logos from '@/src/components/Logos';
-import Links from '@/src/components/Links';
+import Logos from '@/src/components/Home/Logos';
+import Links from '@/src/components/Home/Links';
 import Image from 'next/image';
 
 const About = () => {
