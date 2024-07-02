@@ -36,6 +36,9 @@ return (
         </div>
         <Logos />
         <Links />
+        <a className='anchor' id='cvLetter'></a>
+        <a className='anchor' id='languages'></a>
+        <a className='anchor' id='contact'></a>
     </section>
     </>
   )
