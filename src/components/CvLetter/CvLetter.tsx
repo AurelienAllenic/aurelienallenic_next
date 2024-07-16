@@ -17,10 +17,10 @@ const CvLetter = () => {
                 <h1 className='main-title-languages'>Curriculum</h1>
                 <div className='cvLetter_container'>
                     <div className='container_cv' onClick={() => downloadDocument('./CV.pdf')}>
-                        <Image src={CV} alt="CV" />
+                        <Image src={CV} alt="CV" width={500} height={500}/>
                     </div>
                     <div className='container_letter' onClick={() => downloadDocument('./motivation.pdf')}>
-                        <Image src={Motivation} alt="Lettre de motivation" />
+                        <Image src={Motivation} alt="Lettre de motivation" height={500} width={500}/>
                     </div>
                 </div>
             </section>

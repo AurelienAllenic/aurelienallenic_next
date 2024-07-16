@@ -98,10 +98,10 @@ function Navbar() {
         <li className="navbar_item slideInDown-5">
           <ScrollLink
             className="navbar_link"
-            to="home"
+            to="contact"
             spy={true}
             smooth={true}
-            offset={-70} // Ajustez cet offset selon votre besoin
+            offset={100} // Ajustez cet offset selon votre besoin
             duration={800}
             onClick={handleShowLinks}
           >

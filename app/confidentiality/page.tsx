@@ -1,11 +1,16 @@
 "use client"
 
-import React from 'react'
 
-const Confidentiality = () => {
+import React from 'react'
+import Confidentiality from "@/src/components/confidentiality/Confidentiality"
+import { LanguageProvider } from '@/app/context/LanguageContext'
+
+const ConfidentialityContainer = () => {
   return (
-    <div>Confidentiality</div>
+    <LanguageProvider>
+      <Confidentiality />
+    </LanguageProvider>
   )
 }
 
-export default Confidentiality
+export default ConfidentialityContainer
